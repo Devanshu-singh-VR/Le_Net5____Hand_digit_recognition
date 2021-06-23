@@ -47,6 +47,7 @@ model = tf.keras.Sequential([
     AvgPool2D((2, 2), 2),
 
     Conv2D(120, (5, 5), activation='tanh', kernel_regularizer=rg),
+    BatchNormalization(),
 
     Flatten(),
 
