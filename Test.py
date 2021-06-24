@@ -1,5 +1,5 @@
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # Remove the Tensorflow Warnings and errors
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # Remove the Tensorflow Warnings 
 
 import tensorflow as tf
 import matplotlib.pyplot as plt

@@ -1,5 +1,5 @@
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # Remove the Tensorflow warnings and errors
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # Remove the Tensorflow warnings
 
 import tensorflow as tf
 from tensorflow.keras.layers import Conv2D
