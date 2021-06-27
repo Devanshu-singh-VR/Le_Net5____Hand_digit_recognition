@@ -36,6 +36,12 @@ x_test = x_test/255.0
 rg = tf.keras.regularizers.l1(0.01)
 
 # Model Architecture (Le-Net 5)
+"""
+Le-Net 5 is a free forward convolution neural network architecture.
+It consist of 3 convolution and 2 Avj Pool layers with 2 fully connected layers
+to solve the hand digit recognition problem.
+
+"""
 model = tf.keras.Sequential([
 
     Conv2D(6, (5, 5), activation='tanh', padding='same', kernel_regularizer=rg),
